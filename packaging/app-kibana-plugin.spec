@@ -1,7 +1,7 @@
 
 Name: app-kibana-plugin
 Epoch: 1
-Version: 2.3.0
+Version: 1.0.0
 Release: 1%{dist}
 Summary: Kibana Policies - Core
 License: LGPLv3
