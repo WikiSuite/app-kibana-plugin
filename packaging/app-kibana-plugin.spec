@@ -1,13 +1,13 @@
 
 Name: app-kibana-plugin
 Epoch: 1
-Version: 1.0.0
+Version: 1.0.1
 Release: 1%{dist}
 Summary: Kibana Policies - Core
 License: LGPLv3
 Group: ClearOS/Libraries
 Packager: eGloo
-Vendor: Marc Laporte
+Vendor: WikiSuite
 Source: app-kibana-plugin-%{version}.tar.gz
 Buildarch: noarch
 
@@ -56,6 +56,7 @@ exit 0
 %files core
 %defattr(-,root,root)
 %exclude /usr/clearos/apps/kibana_plugin/packaging
+%exclude /usr/clearos/apps/kibana_plugin/unify.json
 %dir /usr/clearos/apps/kibana_plugin
 /usr/clearos/apps/kibana_plugin/deploy
 /usr/clearos/apps/kibana_plugin/language
